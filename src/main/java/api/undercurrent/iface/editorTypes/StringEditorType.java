@@ -47,7 +47,7 @@ public class StringEditorType extends EditorType {
             if (objcast.length() < getMinLength()) {
                 return false;
             }
-            
+
             return true;
 
         } catch (Exception e) {

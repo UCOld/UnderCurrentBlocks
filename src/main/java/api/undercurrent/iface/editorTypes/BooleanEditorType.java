@@ -37,7 +37,6 @@ public class BooleanEditorType extends EditorType {
             boolean objcast = Boolean.valueOf(String.valueOf(obj));
             return true;
 
-
         } catch (Exception e) {
             return false;
         }
