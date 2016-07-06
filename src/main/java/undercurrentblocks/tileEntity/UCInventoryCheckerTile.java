@@ -71,7 +71,7 @@ public class UCInventoryCheckerTile extends TileEntity implements IUCTile {
             inventories.add((IInventory) worldObj.getTileEntity(xCoord, yCoord, zCoord - 1));
         }
 
-        return new UCInventoryCheckerDefinition(this, inventories);
+        return new UCInventoryCheckerDefinition(inventories);
     }
 
 

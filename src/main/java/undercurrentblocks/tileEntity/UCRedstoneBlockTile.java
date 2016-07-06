@@ -55,7 +55,7 @@ public class UCRedstoneBlockTile extends TileEntity implements IUCTile {
 
     @Override
     public UCTileDefinition getTileDefinition() throws Exception {
-        return new UCRedstoneBlockDefinition(this, this.redstoneState);
+        return new UCRedstoneBlockDefinition(this.redstoneState);
     }
 
 

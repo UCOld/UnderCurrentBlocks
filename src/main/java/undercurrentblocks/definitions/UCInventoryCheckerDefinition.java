@@ -13,8 +13,7 @@ import java.util.List;
  */
 public class UCInventoryCheckerDefinition extends UCTileDefinition {
 
-    public UCInventoryCheckerDefinition(UCInventoryCheckerTile te, List<IInventory> inventories) throws Exception {
-        super(te);
+    public UCInventoryCheckerDefinition(List<IInventory> inventories) throws Exception {
         for (IInventory inventory : inventories) {
             UCCollection collection = new UCCollection(inventory.getInventoryName());
             for (int i = 0; i < inventory.getSizeInventory(); i++) {

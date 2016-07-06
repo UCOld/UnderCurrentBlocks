@@ -10,9 +10,7 @@ import undercurrentblocks.tileEntity.UCRedstoneBlockTile;
  */
 public class UCRedstoneBlockDefinition extends UCTileDefinition {
 
-    public UCRedstoneBlockDefinition(UCRedstoneBlockTile te, Boolean redstoneState) throws Exception {
-        super(te);
-
+    public UCRedstoneBlockDefinition(Boolean redstoneState) throws Exception {
         UCCollection collection = new UCCollection("Redstone Block Settings");
         collection.getEditableFields().add(new BooleanEditorType("redstoneState", "Redstone State:", "The toggleable state of the block's redstone output", redstoneState));
         getCollections().add(collection);
