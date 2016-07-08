@@ -7,6 +7,8 @@ import net.minecraft.block.Block;
 public class Blocks {
     public static Block redstoneToggleBlock;
     public static Block inventoryCheckerBlock;
+    public static Block mobCounterBlock;
+    public static Block playerCounterBlock;
 
     public static void init() {
         redstoneToggleBlock = new UCRedstoneBlock();
@@ -14,6 +16,12 @@ public class Blocks {
 
         inventoryCheckerBlock = new UCInventoryCheckerBlock();
         GameRegistry.registerBlock(inventoryCheckerBlock, "inventoryCheckerBlock");
+
+        mobCounterBlock = new UCMobCounterBlock();
+        GameRegistry.registerBlock(mobCounterBlock, "mobCounterBlock");
+
+        playerCounterBlock = new UCPlayerCounterBlock();
+        GameRegistry.registerBlock(playerCounterBlock, "playerCounterBlock");
 
     }
 }

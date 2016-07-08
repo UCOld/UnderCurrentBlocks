@@ -1,0 +1,5 @@
+
+tile.ucRedstoneToggleBlock.name=Redstone Toggle Block
+tile.ucInventoryCheckerBlock.name=Inventory Checker Block
+tile.ucMobCounterBlock.name=Mob Counter Block
+tile.ucPlayerCounterBlock.name=Player Counter Block
